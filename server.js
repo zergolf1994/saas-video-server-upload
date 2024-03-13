@@ -9,6 +9,7 @@ const path = require("path");
 
 const mongoose = require("mongoose");
 
+global.sv_type = "upload";
 global.dir = __dirname;
 global.dirPublic = path.join(global.dir, "public");
 

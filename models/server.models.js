@@ -29,7 +29,7 @@ exports.ServerModel = mongoose.model(
       disk_total: { type: Mixed, default: 0 },
       options: {
         max_size_upload: { type: Mixed },
-        domain_public: { type: String },
+        public_domain: { type: String },
         encode_video_resolution: { type: Number },
       },
       ssh_option: {
